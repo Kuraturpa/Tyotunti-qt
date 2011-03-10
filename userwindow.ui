@@ -146,6 +146,9 @@
           <height>60</height>
          </size>
         </property>
+        <property name="value" stdset="0">
+         <double>0.000000000000000</double>
+        </property>
        </widget>
       </item>
      </layout>

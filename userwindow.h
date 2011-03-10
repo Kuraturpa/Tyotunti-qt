@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QDateTime>
+#include <QTimer>
 
 namespace Ui {
     class UserWindow;
@@ -18,11 +19,13 @@ public:
 
 public slots:
     void Work();
+    void UpdateWorkTime();
 
 private:
     Ui::UserWindow *ui;
     QDateTime* workStart;
     bool working;
+    QTimer* timer;
 };
 
 #endif // USERWINDOW_H
